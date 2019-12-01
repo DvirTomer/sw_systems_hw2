@@ -74,7 +74,8 @@ int main()
            
             tempMoney = money*100;
             money = (double)tempMoney;
-            money = money/100;            deposit(account, money);
+            money = money/100;            
+            deposit(account, money);
             break;
 
         case 'W':
